@@ -48,8 +48,6 @@ PRODUCT_PACKAGES += \
     GalleryPrebuilt \
     Flipendo \
     TurboAdapter \
-    GBoardPrebuilt \
     ViaBrowser \
-    TurboPrebuilt
 
 #End
