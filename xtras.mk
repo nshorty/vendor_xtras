@@ -55,4 +55,9 @@ ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     FodAnimations
 endif
+
+ifeq ($(XTENDED_BUILD_TYPE), OFFICIAL)
+PRODUCT_PACKAGES += \
+	XtendedStats
+endif
 #End
